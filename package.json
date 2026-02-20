@@ -2,12 +2,15 @@
   "name": "p003",
   "private": true,
   "version": "0.0.0",
+  "homepage":"https://manikanta221122.github.io/p003",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "deploy": "npm run build && gh-pages -d dist"
+
   },
   "dependencies": {
     "react": "^19.2.0",
